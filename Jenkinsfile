@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'rhel9-build' }
+    agent any
 
     stages {
         stage('Who Am I') {
